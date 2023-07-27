@@ -1,22 +1,25 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
+@import url(http://127.0.0.1:5500/BlurpleRecolor.css);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+    font-family: 'JetBrains Mono', sans-serif !important;
+}
 
 :root {
-	--font:							"gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --mentioncolor: 				235, 149, 50; /* Gruvbox Orange */
+    --successcolor: 				152, 151, 26; /* Gruvbox Green */
+    --warningcolor: 				235, 149, 50; /* Gruvbox Orange */
+    --dangercolor: 				204, 36, 29; /* Gruvbox Red */
 
-	--mentioncolor: 				235, 149, 50; /* Gruvbox Orange */
-	--successcolor: 				142, 192, 124; /* Gruvbox Green */
-	--warningcolor: 				235, 149, 50; /* Gruvbox Orange */
-	--dangercolor: 					204, 36, 29; /* Gruvbox Red */
+    --textbrightest: 				235, 219, 178; /* Gruvbox Beige */
+    --textbrighter: 				214, 196, 151; /* Gruvbox Yellow */
+    --textbright: 					189, 174, 128; /* Gruvbox Bright Yellow */
+    --textdark: 					142, 128, 86; /* Gruvbox Dark Yellow */
+    --textdarker: 					109, 93, 71; /* Gruvbox Brown */
+    --textdarkest: 				75, 62, 48; /* Gruvbox Dark Brown */
 
-	--textbrightest: 				235, 219, 178; /* Gruvbox Beige */
-	--textbrighter: 				214, 196, 151; /* Gruvbox Yellow */
-	--textbright: 					189, 174, 128; /* Gruvbox Bright Yellow */
-	--textdark: 					142, 128, 86; /* Gruvbox Dark Yellow */
-	--textdarker: 					109, 93, 71; /* Gruvbox Brown */
-	--textdarkest: 					75, 62, 48; /* Gruvbox Dark Brown */
-
-	--backgroundaccent: 			40, 40, 40; /* Gruvbox Dark Grey */
+    --backgroundaccent: 			40, 40, 40; /* Gruvbox Dark Grey */
 	--backgroundprimary: 			32, 32, 32; /* Gruvbox Dark Grey */
 	--backgroundsecondary: 			28, 28, 28; /* Gruvbox Darker Grey */
 	--backgroundsecondaryalt: 		24, 24, 24; /* Gruvbox Darker Grey */
